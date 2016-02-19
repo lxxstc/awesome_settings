@@ -1,5 +1,7 @@
 #!/bin/bash
 
+PATH=/home/lxxstc/local/rofi/bin/:$PATH
+
 RUN_FOLDER="$1"
 
 if [[ -d $RUN_FOLDER ]]; then

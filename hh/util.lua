@@ -22,6 +22,9 @@ end
 
 function dir_exists(path)
     local f = G.io.open(path, "r")
+    if f == nil then
+        return false
+    end
     local ok, err, code = f:read(1)
     f:close()
     return code == 21
