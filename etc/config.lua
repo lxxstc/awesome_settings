@@ -8,7 +8,7 @@ return {
   exec_term       = "/bin/bash -c",
   modkey          = "Mod4",
   altkey          = "Mod1",
-  terminal        = "gnome-terminal",
+  terminal        = "urxvt",
   file_explorer   = "nemo --no-desktop",
   editor          = os.getenv("EDITOR") or "emacs -nw",
   gui_editor      = "emacs",

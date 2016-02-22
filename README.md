@@ -10,6 +10,7 @@ Useful awesome wm config framework.
 * shutter
 * slock
 * alsa-utils
+* xclip
 
 
 # Usage
